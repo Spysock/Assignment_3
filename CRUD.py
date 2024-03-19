@@ -88,6 +88,7 @@ def update_student_email(student_id, new_email):
 
 def delete_student(student_id):
     try:
+        #Executes delete statement
         db.execute("DELETE FROM students WHERE student_id = %s", (student_id,))
         print(f"Successfully Deleted {student_id}")
     except Exception as e:
@@ -106,13 +107,13 @@ add_student("Example", "Majeed", "examplemajeed@example.com", "2001-02-05")
 get_all_students()
 
 
-update_student_email(4, "example@gmail.com")
+update_student_email(19, "example@gmail.com")
 
 
 get_all_students()
 
 
-delete_student(4)
+delete_student(19)
 
 
 get_all_students()
