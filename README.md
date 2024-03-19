@@ -8,14 +8,29 @@ This program uses psycopg2 in order to create a CRUD system for a postgresql dat
 
 ## Getting Started
 
+* https://www.youtube.com/watch?v=QyauDTcPmRk
+
+
 ### Dependencies
 
 * psycopg2
-* Python on vscode, python interpreter on vscode
+* pgAdmin 4
+* Python on 3.9.0
+* Python debugger
+* Windows, macOS, Linux
 
 ### Installing
 
 * Find on github
+
+### How to run
+* Create a database or use an already existing database
+* Switch out the variable which start with DB with another name
+* Go to your directory that containers the file and type the following:
+
+```
+python CRUD.py
+```
 
 ## Help
 
